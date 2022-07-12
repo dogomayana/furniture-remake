@@ -71,20 +71,20 @@ const Main = () => {
                 <p className=' mt-2 text-white text-center text-base md:text-lg lg:text-lg'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, vitae?</p>
                 <div className='lg:max-w-2xl md:max-w-2xl mx-auto w-full'>    
                     <div className='mt-8 px-4 grid md:grid-cols-4 lg:grid-cols-4 grid-cols-2 gap-x-8 gap-y-4'>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/spotify.svg' height={120} width={120} layout='responsive'/> </div>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/disney.svg' height={120} width={120} layout='responsive'/> </div>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/cisco.svg' height={120} width={120} layout='responsive'/> </div>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/deezer.svg' height={120} width={120} layout='responsive'/></div>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/hp.svg' height={120} width={120} layout='responsive'/> </div>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/verizon.svg' height={120} width={120} layout='responsive'/></div>
-                        <div className='bg-white rounded-md text-center'>    <Image src='/texas.svg' height={120} width={120} layout='responsive'/></div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/spotify.svg' height={120} width={120} alt='image' layout='responsive'/> </div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/disney.svg' height={120} width={120} alt='image' layout='responsive'/> </div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/cisco.svg' height={120} width={120} alt='image' layout='responsive'/> </div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/deezer.svg' height={120} width={120} alt='image' layout='responsive'/></div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/hp.svg' height={120} width={120}  alt='image' layout='responsive'/> </div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/verizon.svg' height={120} width={120} alt='image' layout='responsive'/></div>
+                        <div className='bg-white rounded-md text-center'>    <Image src='/texas.svg' height={120} width={120} alt='image' layout='responsive'/></div>
                     </div>
                 </div>
             </div>
 
             <div className="container-sm relative p-4 md:w-10/12 lg:w-10/12 mt-4 md:flex lg:flex mx-auto bg-white">
                 <div className='md:w-6/12 md:my-auto lg:w-6/12 lg:my-auto'>
-                    <h1 className='text-black text-2xl md:text-3xl md:text-3xl font-bold'>Relax, You're Home!</h1>
+                    <h1 className='text-black text-2xl md:text-3xl md:text-3xl font-bold'>Relax, You&rsquo;re Home!</h1>
                     <p className='text-black text-base mt-2 md:text-lg md:text-lg'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni neque dolore quisquam corporis repudiandae?</p>
                     <p className='text-black text-base mt-2 md:text-lg md:text-lg'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni neque dolore quisquam corporis repudiandae?</p>
                     <p className='px-4 py-2 text-base md:text-lg lg:text-lg mt-4 inline-block rounded-md font-semibold bg-amber-500 hover:bg-pink-700 hover:text-white'>Sign up</p>
